@@ -12,5 +12,6 @@ namespace WebApplication1.DAL
         public DbSet<Slider> Slider { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Portfolio> Portfolios { get; set; }
+        public DbSet<Service> Services { get; set; }    
     }
 }
